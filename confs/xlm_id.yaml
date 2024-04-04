@@ -1,0 +1,13 @@
+defaults:
+  - trainer: default
+  - models: xlm
+  - tokenizer: default
+  - datasets: wikiann_id
+  - earlystopping: default
+  - checkpoint: xlm_id
+  - loggers: xlm_id
+  - optim: default
+  - lr_monitor: default
+do_train: False
+do_test: True
+checkpoint_file: ./outputs/xlm-id-id/checkpoints/model-epoch=19-val_loss=0.31-val_f1=0.93.ckpt

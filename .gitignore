@@ -1,0 +1,5 @@
+logs/
+outputs/
+wandb/
+lightning_logs/
+ner-lores/

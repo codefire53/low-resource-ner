@@ -1,0 +1,13 @@
+defaults:
+  - trainer: default
+  - models: glot500
+  - tokenizer: default
+  - datasets: mixed_wikiann_su
+  - earlystopping: default
+  - checkpoint: glot500_su
+  - loggers: glot500_su
+  - optim: default
+  - lr_monitor: default
+do_train: False
+do_test: True
+checkpoint_file: outputs/glot500-jv-jv_mixed-id_wikiann-jv-test/checkpoints/indonlu-nergrit-model-epoch=12-val_loss=0.29-val_f1=0.92.ckpt

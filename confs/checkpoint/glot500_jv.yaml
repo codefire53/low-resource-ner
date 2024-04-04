@@ -1,0 +1,3 @@
+defaults:
+  - default
+dirpath: ./outputs/glot500-jv-jv_mixed-all_wikiann-jv-test/checkpoints

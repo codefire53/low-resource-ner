@@ -1,0 +1,12 @@
+defaults:
+  - trainer: default
+  - models: xlm
+  - tokenizer: default
+  - datasets: mixed_wikiann_jv
+  - earlystopping: default
+  - checkpoint: xlm_jv
+  - loggers: xlm_jv
+  - optim: default
+  - lr_monitor: default
+do_train: True
+do_test: True

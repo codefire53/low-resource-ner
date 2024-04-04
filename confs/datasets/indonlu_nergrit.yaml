@@ -1,0 +1,10 @@
+defaults:
+  - default
+dataset_name: indonlu_nergrit
+text_field: tokens
+label_field: labels
+train_split: train
+val_split: validation
+test_split: test
+id2label_file: ./dataset/id2label_indonlu_nergrit.json
+loader_type: nusacrowd

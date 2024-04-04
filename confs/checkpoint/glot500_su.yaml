@@ -1,0 +1,3 @@
+defaults:
+  - default
+dirpath: ./outputs/glot500-su-su_mixed-id_wikiann-su-test/checkpoints

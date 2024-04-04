@@ -1,0 +1,4 @@
+defaults:
+  - wikiann
+train_subsets: ["su"]
+test_subset: su

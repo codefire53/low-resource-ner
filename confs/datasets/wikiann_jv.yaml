@@ -1,0 +1,4 @@
+defaults:
+  - wikiann
+train_subsets: ["jv"]
+test_subset: jv

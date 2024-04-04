@@ -1,0 +1,3 @@
+defaults:
+  - default
+dirpath: ./outputs/xlmr-jv-jv_mixed-id/checkpoints

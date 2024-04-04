@@ -1,0 +1,15 @@
+defaults:
+  - default
+train_dataset_names: ["wikiann"]
+train_loader_types: ["hf"]
+train_text_fields: ["tokens"]
+train_label_fields: ["ner_tags"]
+train_label_mapping_files: [""]
+train_train_splits: ["train"]
+train_val_splits: ["validation"]
+test_dataset_name: wikiann
+test_text_field: tokens
+test_label_field: ner_tags
+test_split: test
+test_loader_type: hf
+id2label_file: ./dataset/id2label_wikiann.json

@@ -1,0 +1,3 @@
+defaults:
+  - default
+dirpath: ./outputs/glot500-id-id/checkpoints

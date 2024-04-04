@@ -1,0 +1,11 @@
+torch
+torchtext
+transformers
+datasets
+rich
+wandb
+hydra-core
+lightning
+evaluate
+sentencepiece
+seqeval

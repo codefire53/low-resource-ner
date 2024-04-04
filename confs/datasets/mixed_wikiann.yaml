@@ -1,0 +1,16 @@
+defaults:
+  - default
+train_dataset_names: ["indonlu_nergrit", "indolem_nerui", "wikiann", "wikiann", "wikiann"]
+train_loader_types: ["nusacrowd", "nusacrowd", "hf", "hf", "hf"]
+train_text_fields: ["tokens", "tokens", "tokens", "tokens", "tokens"]
+train_label_fields: ["labels", "labels", "ner_tags", "ner_tags", "ner_tags"]
+train_subsets: ["", "", "id", "jv", "su"]
+train_label_mapping_files: ["./dataset/id2id_nergrit_wikiann.json", "./dataset/id2id_nerui_wikiann.json", "", "", ""]
+train_train_splits: ["train", "train", "train", "train", "train"]
+train_val_splits: ["validation", "validation", "validation", "validation", "validation"]
+test_dataset_name: wikiann
+test_text_field: tokens
+test_label_field: ner_tags
+test_split: test
+test_id2label_file: ./dataset/id2label_wikiann.json
+test_loader_type: hf

@@ -1,0 +1,4 @@
+defaults:
+  - wikiann
+train_subsets: ["id"]
+test_subset: id

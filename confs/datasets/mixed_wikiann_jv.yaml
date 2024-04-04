@@ -1,0 +1,3 @@
+defaults:
+  - mixed_wikiann
+test_subset: jv

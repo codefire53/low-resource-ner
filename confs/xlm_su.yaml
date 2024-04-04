@@ -1,0 +1,12 @@
+defaults:
+  - trainer: default
+  - models: xlm
+  - tokenizer: default
+  - datasets: wikiann_su
+  - earlystopping: default
+  - checkpoint: xlm_su
+  - loggers: xlm_su
+  - optim: default
+  - lr_monitor: default
+do_train: True
+do_test: True
