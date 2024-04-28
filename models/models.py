@@ -79,20 +79,6 @@ class Seq2SeqModel(L.LightningModule):
         self.all_labels.extend(pred_labels)
         self.all_preds.extend(gt_labels)
 
-    
-    def test_step(self, batch, batch_idx):
-        labels = batch['labels']
-        output = self(**batch)
-        logits, _ = output.logits, output.loss
-        #log_proba = torch.nn.functional.log_softmax(logits, dim=-1)
-        preds = torch.argmax(logits, dim=-1)
-        print(preds)
-        print(labels)
-        print()
-        ner_preds, ner_labels = self._get_ner_preds_and_ner_labels(preds, labels)
-        self.all_labels.extend(ner_labels)
-        self.all_preds.extend(ner_preds)
-
     def on_test_epoch_end(self):
         results = self.seqeval.compute(predictions=self.all_preds, references=self.all_labels)
         print(results)
