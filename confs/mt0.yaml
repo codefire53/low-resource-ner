@@ -1,13 +1,13 @@
 defaults:
   - trainer: default
-  - models: glot500
+  - models: mt0
   - tokenizer: default
   - datasets: mixed_wikiann_jv
   - earlystopping: default
-  - checkpoint: glot500_jv
-  - loggers: glot500_jv
+  - checkpoint: mt0
+  - loggers: mt0
   - optim: default
   - lr_monitor: default
-do_train: True
-do_test: True
+do_train: true
+do_test: true
 task_type: default

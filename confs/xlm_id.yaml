@@ -11,3 +11,4 @@ defaults:
 do_train: False
 do_test: True
 checkpoint_file: ./outputs/xlm-id-id/checkpoints/model-epoch=19-val_loss=0.31-val_f1=0.93.ckpt
+task_type: default

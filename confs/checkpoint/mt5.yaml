@@ -1,0 +1,3 @@
+defaults:
+  - default
+dirpath: ./outputs/mt5_mixed-all/checkpoints

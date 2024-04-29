@@ -11,3 +11,4 @@ defaults:
 do_train: False
 do_test: True
 checkpoint_file: outputs/glot500-jv-jv_mixed-id_wikiann-jv-test/checkpoints/indonlu-nergrit-model-epoch=12-val_loss=0.29-val_f1=0.92.ckpt
+task_type: default

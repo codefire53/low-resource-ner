@@ -10,3 +10,4 @@ defaults:
   - lr_monitor: default
 do_train: True
 do_test: True
+task_type: default
