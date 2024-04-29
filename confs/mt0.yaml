@@ -10,4 +10,4 @@ defaults:
   - lr_monitor: default
 do_train: true
 do_test: true
-task_type: default
+task_type: seq2seq
